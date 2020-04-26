@@ -1,0 +1,35 @@
+
+.cards {
+    display: grid;
+    margin: 100px;
+    
+    }
+    
+    .cardone {
+        background-color: #fbf0f0;
+        margin: 5rem;
+        padding: 50px;
+        grid-row: 1 / 1;
+        text-align: center;
+        border: 2px solid #b8b0b0;
+    
+    }
+    
+    .cardtwo {
+        background-color: #fbf0f0;
+        margin: 5rem;
+        padding: 50px;
+        grid-row: 2 / 1;
+        text-align: center;
+        border: 2px solid #b8b0b0;
+    }
+    
+    @media screen and (max-width: 800px) {
+       
+            
+            .cards {
+                display: flex;
+                flex-direction: column;
+                margin: 50px;
+            }
+    }

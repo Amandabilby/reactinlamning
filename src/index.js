@@ -1,17 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import ReactDOM from "react-dom";
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+import './style/_style.scss';
+import './style/_navbar.scss';
+import './style/_cards.scss';
+import './style/_form.scss';
+import './style/_footer.scss';
+import './style/_booking.scss';
+
+
+
+
+
+
+//import App from "./components/App";
+import Approute from "./components/Approute"
+
+
+
+// import App from "./components/App";
+
+
+
+//document.getElementById("root")
+ReactDOM.render(<Approute/> , document.querySelector("#root"))
